@@ -22,15 +22,18 @@ This software is designed to bring a solution to Driving Schools. With this soft
 
 ## Structure of code
 ### Controllers
-* For System: `App\Http\Controllers`
-* For tenant: `App\Http\Controllers\Tenant`
+* For System: `app/Http/Controllers`
+* For tenant: `app/Http/Controllers/Tenant`
 ### Models
-* For System: `App\Models`
-* For tenant: `App\Models\Tenant`
+* For System: `app/Models`
+* For tenant: `app/Models/Tenant`
 Each model inside tenant must implement the interface `Hyn\Tenancy\Traits\UsesTenantConnection`
+### Migrations
+* For system: `database/migrations`
+* For tenant: `database/migrations/tenant`
 ### Routes
-* For system: `routes\web.php`
-* For tenant: `routes\tenants.php`
+* For system: `routes/web.php`
+* For tenant: `routes/tenants.php`
 ### Resources
-* Views for system: `reources\views`
-inglee* Views for tenant: `reources\views\tenant`
+* Views for system: `reources/views`
+inglee* Views for tenant: `reources/views/tenant`
