@@ -27,7 +27,7 @@ This software is designed to bring a solution to Driving Schools. With this soft
 ### Models
 * For System: `app/Models`
 * For tenant: `app/Models/Tenant`
-    * (Each model inside tenant must implement the interface `Hyn\Tenancy\Traits\UsesTenantConnection`)*
+    * *(Each model inside tenant must implement the interface `Hyn\Tenancy\Traits\UsesTenantConnection`)*
 ### Migrations
 * For system: `database/migrations`
 * For tenant: `database/migrations/tenant`
