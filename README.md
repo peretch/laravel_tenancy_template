@@ -1,5 +1,5 @@
 # academia_de_choferes
-Este software está desarrollado para facilitar la gestión de las academias de choferes.
+This software is designed to bring a solution to Driving Schools. With this software solution, you will be able to administrate your students, teachers, and also your schedules.
 
 ## Instalation
 1. Clone repository
@@ -33,4 +33,4 @@ Each model inside tenant must implement the interface `Hyn\Tenancy\Traits\UsesTe
 * For tenant: `routes\tenants.php`
 ### Resources
 * Views for system: `reources\views`
-* Views for tenant: `reources\views\tenant`
+inglee* Views for tenant: `reources\views\tenant`
