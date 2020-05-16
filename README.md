@@ -36,4 +36,4 @@ Each model inside tenant must implement the interface `Hyn\Tenancy\Traits\UsesTe
 * For tenant: `routes/tenants.php`
 ### Resources
 * Views for system: `reources/views`
-inglee* Views for tenant: `reources/views/tenant`
+* Views for tenant: `reources/views/tenant`
