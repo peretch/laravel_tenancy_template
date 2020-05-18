@@ -116,7 +116,7 @@ class RegisterController extends Controller
         if(!$this->tenantName){
             $fqdn = sprintf('%s.%s', request('fqdn'), env('APP_DOMAIN'));
             $website = new Website;
-            $website->uuid = 'choferes_' . Str::random(6);
+            $website->uuid = 'tenant_' . Str::random(6);
             app(WebsiteRepository::class)->create($website);
             $hostname = new Hostname;
             $hostname->fqdn = $fqdn;

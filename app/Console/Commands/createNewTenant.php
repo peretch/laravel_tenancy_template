@@ -50,7 +50,7 @@ class createNewTenant extends Command
     {
         $fqdn = sprintf('%s.%s', $this->argument('fqdn'), env('APP_DOMAIN'));
         $website = new Website;
-        $website->uuid = 'choferes_' . Str::random(6);
+        $website->uuid = 'tenant_' . Str::random(6);
         app(WebsiteRepository::class)->create($website);
         $hostname = new Hostname;
         $hostname->fqdn = $fqdn;
