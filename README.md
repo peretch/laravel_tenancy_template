@@ -1,5 +1,4 @@
-# Tenancy
-This software is designed to bring a solution to Driving Schools. With this software solution, you will be able to administrate your students, teachers, and also your schedules.
+# Peretch/laravel_tenancy_template
 
 ## Instalation
 1. Clone repository
