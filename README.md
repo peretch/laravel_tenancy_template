@@ -8,7 +8,7 @@
 ## Instalation
 1. Clone repository
 2. run `composer install` (https://getcomposer.org)
-3. Copiar arhcivo `.env.example` con nombre `.env`.
+3. Copy `.env.example` file as `.env`.
 4. Confgurate databases access in `.env` file. (Is very important to complete the **TENANT_DATABASE** information!).
 5. run `php artisan key:generate`
 6. run `php artisan migrate --database=system`
