@@ -1,5 +1,10 @@
 # Peretch/laravel_tenancy_template
 
+## Prerequisites
+* PHP (>= 7.0) installed
+* npm installed (https://www.npmjs.com/get-npm)
+* MySQL 5.7 (https://dev.mysql.com/downloads/mysql/5.7.html) **Important! MySQL 8.0 is not supported for Tenancy**
+
 ## Instalation
 1. Clone repository
 2. run `composer install` (https://getcomposer.org)
